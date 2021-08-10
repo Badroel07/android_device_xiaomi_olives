@@ -20,6 +20,9 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_BOARD_PLATFORM := msm8937
 PRODUCT_USES_QCOM_HARDWARE := true
 
+# ssos
+TARGET_USES_BLUR := true
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml \
