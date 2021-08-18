@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_olives.mk
+    $(LOCAL_DIR)/revengeos_olives.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_olives-user \
-    ssos_olives-userdebug \
-    ssos_olives-eng
+    revengeos_olives-user \
+    revengeos_olives-userdebug \
+    revengeos_olives-eng
