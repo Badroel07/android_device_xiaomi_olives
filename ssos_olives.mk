@@ -12,8 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common ssos stuff.
 $(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.ssos.cpu=SDM439
 
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
