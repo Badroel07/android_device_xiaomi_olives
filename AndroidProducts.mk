@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_olives.mk
+    $(LOCAL_DIR)/xdroid_olives.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_olives-user \
-    conquer_olives-userdebug \
-    conquer_olives-eng
+    xdroid_olives-user \
+    xdroid_olives-userdebug \
+    xdroid_olives-eng
