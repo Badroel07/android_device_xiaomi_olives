@@ -13,6 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/bianca/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
+BIANCA_OFFICIAL := true
 
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
